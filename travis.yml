@@ -1,0 +1,9 @@
+lenguaje: python
+python:
+  - "3.7-dev"
+# comand to install dependencies
+install:
+  -pip install -r rqueriments.txt
+# comamd is run tests
+script:
+  -python
