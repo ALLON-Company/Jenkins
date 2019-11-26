@@ -1,3 +1,7 @@
-language: java
-sudo: false
-script: mvn clean verify
+language: ruby
+rvm :
+    - 2.3.3
+before_install:
+  - gem update --system
+  - gem install bundler
+gemfile: gemfile
